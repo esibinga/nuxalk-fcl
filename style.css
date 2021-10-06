@@ -62,8 +62,8 @@ div#nuxalk-link:hover {
 }
 
 .audio-files{
-   position: relative;
-   bottom: 30vh;
+   position: absolute;
+   bottom: 0vh;
    left: 3vw;
    color: rgb(243, 243, 243);
    font-size: .75em;
