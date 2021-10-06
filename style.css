@@ -69,3 +69,7 @@ div#nuxalk-link:hover {
    font-size: 1.5em;
    font-family: sans-serif;
 }
+
+audio{
+    max-width: 30px;
+}
