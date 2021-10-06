@@ -71,5 +71,6 @@ div#nuxalk-link:hover {
 }
 
 audio{
-    max-height: 30px;
+    max-height: 25px;
+    width: 150px;
 }
