@@ -1,0 +1,71 @@
+body {
+    background-image: url(background-image/background-only.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 51, 51);
+    max-height: 100vh;
+    max-width: 100vw;
+    font: sans-serif;
+}
+
+.title{
+    position: absolute;
+}
+
+#title-img{
+    width: 100vw;
+}
+
+div#nuxalk-link{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    left: 5vh;
+    top: 10vh;
+}
+div#nuxalk-link:hover {
+    cursor: hand;
+    cursor: pointer;
+ }
+ a.divLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* Makes sure the link doesn't get underlined */
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
+ }
+
+.chart{
+    position: absolute;
+}
+
+#harvest-chart-img{
+    width: 100vw;
+}
+
+.key{
+    position: absolute;   
+}
+
+#key-img{
+    width: 100vw;
+}
+
+.audio-files{
+   position: absolute;
+   bottom: 5vh;
+   left: 5vw;
+   color: rgb(243, 243, 243);
+   font-size: 2.5em;
+   font-family: sans-serif;
+}
